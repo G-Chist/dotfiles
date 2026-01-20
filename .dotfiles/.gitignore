@@ -1,0 +1,26 @@
+# Ignore everything by default
+*
+
+# Allow directories so rules can descend
+!*/
+
+# Explicitly track selected dotfiles
+!.vimrc
+!.zshrc
+
+# Neovim config
+!.config/
+!.config/nvim/
+!.config/nvim/**
+
+# Git-related
+!.gitconfig
+!.gitignore
+
+# !.profile
+# !.bashrc
+# !.bash_profile
+# !.zprofile
+
+# OS junk
+.DS_Store
