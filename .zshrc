@@ -44,14 +44,7 @@ alias empty_trash="rm -rf ~/.local/share/Trash/*"
 alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"
 alias iaito="flatpak run org.radare.iaito"
 alias studio="/usr/local/android-studio/bin/studio"
-<<<<<<< HEAD
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-=======
-<<<<<<< HEAD
-=======
-alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
->>>>>>> 8919c9e (Track vim, zsh, and nvim config)
->>>>>>> b97ffd7 (Track vim, zsh, and nvim config)
 
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
