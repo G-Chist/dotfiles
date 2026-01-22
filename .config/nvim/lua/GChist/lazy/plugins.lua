@@ -72,12 +72,7 @@ return {
   },
 
   -- Color Scheme
-  {
-    "serhez/teide.nvim",
-    lazy = false,
-    priority = 1000,
-    opts = {},
-  },
+  { "EdenEast/nightfox.nvim" },
 
   -- Git integration
   'airblade/vim-gitgutter',
