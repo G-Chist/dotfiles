@@ -63,3 +63,10 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # opencode
 export PATH=/home/matvei/.opencode/bin:$PATH
+
+# bun completions
+[ -s "/home/matvei/.bun/_bun" ] && source "/home/matvei/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
