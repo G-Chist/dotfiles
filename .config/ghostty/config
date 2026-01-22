@@ -52,6 +52,7 @@
 
 title = T3RM1N4L
 maximize = true
+fullscreen = true
 theme = Black Metal (Nile)
 background = #000000
 foreground = #c1c1c1
