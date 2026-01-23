@@ -53,11 +53,29 @@
 title = T3RM1N4L
 maximize = true
 fullscreen = true
-theme = Spacegray Eighties
-background = #000000
-foreground = #c1c1c1
-selection-background = #c1c1c1
-selection-foreground = #000000
-cursor-color = #c1c1c1
-cursor-text = #8e8e8e
 cursor-style = bar
+theme = Spacegray Eighties
+bold-is-bright = true
+minimum-contrast = 2
+background = #222222
+foreground = #bdbaae
+selection-background = #272e35
+selection-foreground = #ffffff
+cursor-color = #bbbbbb
+cursor-text = #ffffff
+palette = 0=#15171c
+palette = 1=#ec5f67
+palette = 2=#81a764
+palette = 3=#fec254
+palette = 4=#5486c0
+palette = 5=#bf83c1
+palette = 6=#57c2c1
+palette = 7=#efece7
+palette = 8=#555555
+palette = 9=#ff6973
+palette = 10=#93d493
+palette = 11=#ffd256
+palette = 12=#4d84d1
+palette = 13=#ff55ff
+palette = 14=#83e9e4
+palette = 15=#ffffff
