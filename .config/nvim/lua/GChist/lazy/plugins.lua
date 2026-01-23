@@ -72,28 +72,7 @@ return {
   },
 
   -- Color Scheme
-{
-  "metalelf0/black-metal-theme-neovim",
-  lazy = false,
-  priority = 1000,
-  config = function()
-    require("black-metal").setup({
-      theme = "nile",
-      variant = "dark",
-    code_style = {
-      comments = "italic",
-      conditionals = "none",
-      functions = "none",
-      keywords = "none",
-      headings = "bold", -- Markdown headings
-      operators = "none",
-      keyword_return = "none",
-      strings = "none",
-      variables = "none",
-    }})
-    require("black-metal").load()
-  end,
-},
+  'KabbAmine/yowish.vim',
 
   -- Git integration
   'airblade/vim-gitgutter',
@@ -133,5 +112,15 @@ return {
   'mdedonno1337/disassemble.nvim',
 
   -- Neoterm: use the terminal from Neovim
-  'kassio/neoterm'
+  'kassio/neoterm',
+
+  -- Telescope
+  {
+    'nvim-telescope/telescope.nvim', version = '*',
+    dependencies = {
+        'nvim-lua/plenary.nvim',
+        -- optional but recommended
+        { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+    }
+  }
 }
