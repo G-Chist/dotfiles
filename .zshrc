@@ -46,6 +46,7 @@ alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"
 alias iaito="flatpak run org.radare.iaito"
 alias studio="/usr/local/android-studio/bin/studio"
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias cheatsheets='f() { curl cheat.sh/$1 };f'
 
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
