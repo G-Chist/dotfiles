@@ -85,7 +85,7 @@ return {
       vim.g.indentLine_char = '¦'
       vim.g.indentLine_leadingSpaceEnabled = 1
       vim.g.indentLine_leadingSpaceChar = '·'
-      vim.g.indentLine_color_term = 239
+      vim.g.indentLine_defaultGroup = 'comment'
     end,
   },
   'terryma/vim-smooth-scroll',
