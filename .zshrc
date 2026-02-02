@@ -39,7 +39,7 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 # Aliases
 alias clanker="ollama run gemma3"
 alias ls="ls --color=auto"
-alias gemini="npx https://github.com/google-gemini/gemini-cli"
+alias gemini="npx @google/gemini-cli"
 alias binaryninja="~/binaryninja_free_linux/binaryninja/binaryninja"
 alias empty_trash="rm -rf ~/.local/share/Trash/*"
 alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"

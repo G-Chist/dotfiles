@@ -79,3 +79,6 @@ palette = 12 = #4d84d1
 palette = 13 = #ff55ff
 palette = 14 = #83e9e4
 palette = 15 = #ffffff
+
+keybind = super+w=scroll_page_lines:20
+keybind = super+s=scroll_page_lines:-20
