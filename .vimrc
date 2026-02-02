@@ -41,8 +41,11 @@ inoremap <silent><expr> <Tab>
 
 :set number
 au VimEnter *  NERDTree
+let NERDTreeShowHidden=1
+let NERDTreeShowLineNumbers=1
 
-colorscheme desert
+
+colorscheme slate
 
 set hlsearch                     " Highlight searched string occurrences
 hi CocFloating ctermbg=DarkGrey  " Floating menu bg color
