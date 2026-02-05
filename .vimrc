@@ -6,7 +6,7 @@ Plug 'neoclide/coc.nvim'
 Plug 'preservim/nerdtree'
 Plug 'airblade/vim-gitgutter'
 Plug 'ryanoasis/vim-devicons'
-Plug 'Yggdroot/indentLine'
+" Plug 'Yggdroot/indentLine'
 Plug 'valloric/MatchTagAlways'
 Plug 'kqito/vim-easy-replace'
 Plug 'terryma/vim-smooth-scroll'
@@ -17,12 +17,12 @@ call plug#end()
 
 
 " For indentLine
-let g:matchup_matchparen_enabled = 1
-let g:matchup_matchparen_offscreen = {'method': 'popup'}
-let g:indentLine_char = '¦'
-let g:indentLine_leadingSpaceEnabled = 1
-let g:indentLine_leadingSpaceChar = '·'
-let g:indentLine_color_term = 239
+" let g:matchup_matchparen_enabled = 1
+" let g:matchup_matchparen_offscreen = {'method': 'popup'}
+" let g:indentLine_char = '¦'
+" let g:indentLine_leadingSpaceEnabled = 1
+" let g:indentLine_leadingSpaceChar = '·'
+" let g:indentLine_color_term = 239
 
 " For coc
 set encoding=UTF-8
