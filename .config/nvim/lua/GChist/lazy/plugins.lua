@@ -79,15 +79,15 @@ return {
   'tpope/vim-fugitive',
 
   -- UI enhancements
-  {
-    'Yggdroot/indentLine',
-    config = function()
-      vim.g.indentLine_char = '¦'
-      vim.g.indentLine_leadingSpaceEnabled = 1
-      vim.g.indentLine_leadingSpaceChar = '·'
-      vim.g.indentLine_defaultGroup = 'comment'
-    end,
-  },
+--  {
+--    'Yggdroot/indentLine',
+--    config = function()
+--      vim.g.indentLine_char = '¦'
+--      vim.g.indentLine_leadingSpaceEnabled = 1
+--      vim.g.indentLine_leadingSpaceChar = '·'
+--      vim.g.indentLine_defaultGroup = 'comment'
+--    end,
+--  },
   'terryma/vim-smooth-scroll',
   'ap/vim-css-color',
 
