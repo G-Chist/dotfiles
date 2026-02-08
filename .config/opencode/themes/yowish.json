@@ -1,0 +1,217 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "yowishBg": "#222222",
+    "yowishFg": "#cbcbcb",
+    "yowishHighlight": "#6699cc",
+    "yowishSelectedBg": "#373b41",
+    "yowishSelectedFg": "#cbcbcb",
+    "yowishInactive": "#6e6e6e",
+    "yowishBox": "#393939",
+    "yowishGreen": "#2acf2a",
+    "yowishYellow": "#ffcc66",
+    "yowishRed": "#f2777a"
+  },
+  "theme": {
+    "primary": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "secondary": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "accent": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "error": {
+      "dark": "yowishRed",
+      "light": "yowishRed"
+    },
+    "warning": {
+      "dark": "yowishYellow",
+      "light": "yowishYellow"
+    },
+    "success": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "info": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "text": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "textMuted": {
+      "dark": "yowishInactive",
+      "light": "yowishInactive"
+    },
+    "background": {
+      "dark": "yowishBg",
+      "light": "yowishBg"
+    },
+    "backgroundPanel": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "backgroundElement": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "border": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "borderActive": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "borderSubtle": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "diffAdded": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "diffRemoved": {
+      "dark": "yowishRed",
+      "light": "yowishRed"
+    },
+    "diffContext": {
+      "dark": "yowishInactive",
+      "light": "yowishInactive"
+    },
+    "diffHunkHeader": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "diffHighlightAdded": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "diffHighlightRemoved": {
+      "dark": "yowishRed",
+      "light": "yowishRed"
+    },
+    "diffAddedBg": {
+      "dark": "yowishSelectedBg",
+      "light": "yowishSelectedBg"
+    },
+    "diffRemovedBg": {
+      "dark": "yowishSelectedBg",
+      "light": "yowishSelectedBg"
+    },
+    "diffContextBg": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "diffLineNumber": {
+      "dark": "yowishInactive",
+      "light": "yowishInactive"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "yowishSelectedBg",
+      "light": "yowishSelectedBg"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "yowishSelectedBg",
+      "light": "yowishSelectedBg"
+    },
+    "markdownText": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "markdownHeading": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "markdownLink": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "markdownLinkText": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "markdownCode": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "markdownBlockQuote": {
+      "dark": "yowishInactive",
+      "light": "yowishInactive"
+    },
+    "markdownEmph": {
+      "dark": "yowishYellow",
+      "light": "yowishYellow"
+    },
+    "markdownStrong": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "markdownHorizontalRule": {
+      "dark": "yowishBox",
+      "light": "yowishBox"
+    },
+    "markdownListItem": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "markdownListEnumeration": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "markdownImage": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "markdownImageText": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "markdownCodeBlock": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    },
+    "syntaxComment": {
+      "dark": "yowishInactive",
+      "light": "yowishInactive"
+    },
+    "syntaxKeyword": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "syntaxFunction": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "syntaxVariable": {
+      "dark": "yowishYellow",
+      "light": "yowishYellow"
+    },
+    "syntaxString": {
+      "dark": "yowishGreen",
+      "light": "yowishGreen"
+    },
+    "syntaxNumber": {
+      "dark": "yowishRed",
+      "light": "yowishRed"
+    },
+    "syntaxType": {
+      "dark": "yowishYellow",
+      "light": "yowishYellow"
+    },
+    "syntaxOperator": {
+      "dark": "yowishHighlight",
+      "light": "yowishHighlight"
+    },
+    "syntaxPunctuation": {
+      "dark": "yowishFg",
+      "light": "yowishFg"
+    }
+  }
+}
