@@ -59,9 +59,7 @@ Right now, it is $(date +"%Y-%m-%d %H:%M:%S")"
 
 export PATH="$PATH:/home/matvei/JohnTheRipper/run"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+export PATH="$PATH:/home/matvei/.local/bin"
 
 # opencode
 export PATH=/home/matvei/.opencode/bin:$PATH
@@ -72,3 +70,11 @@ export PATH=/home/matvei/.opencode/bin:$PATH
 # bun
 export BUN_INSTALL="$HOME/.bun"
 export PATH="$BUN_INSTALL/bin:$PATH"
+
+# the lines below fix pixbuf issues when in Ghostty
+unset GDK_PIXBUF_MODULE_FILE
+export XDG_DATA_DIRS="/usr/share:/usr/local/share:$XDG_DATA_DIRS"
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
