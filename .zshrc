@@ -48,6 +48,7 @@ alias studio="/usr/local/android-studio/bin/studio"
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cheatsheets='f() { curl cheat.sh/$1 };f'
 alias uyu="shutdown now"
+alias tmux2x2="tmux new -s '2x2 panes' \; split-window -h \; split-window -v \; select-pane -t 0 \; split-window -v \; attach"
 
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
