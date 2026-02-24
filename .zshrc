@@ -49,6 +49,10 @@ alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias cheatsheets='f() { curl cheat.sh/$1 };f'
 alias uyu="shutdown now"
 alias tmux2x2="tmux new -s '2x2 panes' \; split-window -h \; split-window -v \; select-pane -t 0 \; split-window -v \; attach"
+alias tmux3x3="tmux new -s '3x3 panes' \; split-window -h \; split-window -h \; select-layout even-horizontal \; split-window -v -t 0 \; split-window -v -t 0 \; split-window -v -t 1 \; split-window -v -t 1 \; split-window -v -t 2 \; split-window -v -t 2 \; select-layout tiled \; attach"
+alias tmux3x1="tmux new -s '3x1 panes' \; split-window -v \; split-window -v \; select-layout even-vertical \; attach"
+alias tmux2x1="tmux new -s '2x1 panes' \; split-window -v \; select-layout even-vertical \; attach"
+alias tmux1x2="tmux new -s '1x2 panes' \; split-window -h \; select-layout even-horizontal \; attach"
 
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
