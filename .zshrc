@@ -54,6 +54,7 @@ alias tmux3x1="tmux new -s '3x1 panes' \; split-window -v \; split-window -v \; 
 alias tmux2x1="tmux new -s '2x1 panes' \; split-window -v \; select-layout even-vertical \; attach"
 alias tmux1x2="tmux new -s '1x2 panes' \; split-window -h \; select-layout even-horizontal \; attach"
 alias tmuxlan="tmux new -s 'lan' \; split-window -h -p 35 \; select-pane -t 1 \; split-window -v -p 65 \; select-pane -t 2 \; send-keys 'lazygit' C-m \; select-pane -t 0 \; send-keys 'nvim' C-m \; attach"
+alias tmuxmon="tmux new -s 'mon' \; split-window -h -p 35 \; select-pane -t 1 \; split-window -v -p 65 \; select-pane -t 2 \; send-keys 'ncdu' C-m \; select-pane -t 0 \; send-keys 'btop' C-m \; select-pane -t 1 \; send-keys 'gping mshestopalov.pythonanywhere.com' C-m \; attach"
 
 export NVM_DIR="$HOME/.config/nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
