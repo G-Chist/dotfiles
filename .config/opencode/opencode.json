@@ -6,6 +6,5 @@
     "glob": "allow",
     "edit": "ask",
     "bash": "ask",
-  },
-  "theme": "yowish"
+  }
 }
