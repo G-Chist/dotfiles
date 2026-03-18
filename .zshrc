@@ -85,3 +85,5 @@ export XDG_DATA_DIRS="/usr/share:/usr/local/share:$XDG_DATA_DIRS"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+source /opt/ros/jazzy/setup.zsh
+export ROS_DOMAIN_ID=30
