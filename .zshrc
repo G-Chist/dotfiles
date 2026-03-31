@@ -4,6 +4,9 @@ autoload -Uz promptinit
 promptinit
 prompt adam1
 
+# Enable zsh-autosuggestions
+source ~/.zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+
 setopt histignorealldups sharehistory
 
 # Use emacs keybindings even if our EDITOR is set to vi
@@ -85,7 +88,13 @@ export XDG_DATA_DIRS="/usr/share:/usr/local/share:$XDG_DATA_DIRS"
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
-source /opt/ros/jazzy/setup.zsh
-export ROS_DOMAIN_ID=30
+export TURTLEBOT3_MODEL=burger
 source /usr/share/colcon_cd/function/colcon_cd.sh
 export _colcon_cd_root=/opt/ros/jazzy/
+source ~/turtlebot3_ws/install/setup.zsh
+export ROS_DOMAIN_ID=30 #TURTLEBOT3
+source /opt/ros/jazzy/setup.zsh
+export CYCLONEDDS_URI=~/config.xml
+export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
+
+
