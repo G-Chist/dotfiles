@@ -45,7 +45,9 @@ alias ls="ls --color=auto"
 alias gemini="npx @google/gemini-cli"
 alias binaryninja="~/binaryninja_free_linux/binaryninja/binaryninja"
 alias empty_trash="rm -rf ~/.local/share/Trash/*"
+alias empty_caches="~/.local/bin/empty_caches"
 alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"
+alias cambridge-cli="~/cambridge-cli/./cambridge-cli"
 alias iaito="flatpak run org.radare.iaito"
 alias studio="/usr/local/android-studio/bin/studio"
 alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
@@ -71,6 +73,9 @@ export PATH="$PATH:/home/matvei/JohnTheRipper/run"
 
 export PATH="$PATH:/home/matvei/.local/bin"
 
+# go
+export PATH=$PATH:/usr/local/go/bin
+
 # opencode
 export PATH=/home/matvei/.opencode/bin:$PATH
 
@@ -85,9 +90,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 unset GDK_PIXBUF_MODULE_FILE
 export XDG_DATA_DIRS="/usr/share:/usr/local/share:$XDG_DATA_DIRS"
 
-#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 export TURTLEBOT3_MODEL=burger
 source /usr/share/colcon_cd/function/colcon_cd.sh
 export _colcon_cd_root=/opt/ros/jazzy/
@@ -97,4 +99,11 @@ source /opt/ros/jazzy/setup.zsh
 export CYCLONEDDS_URI=~/config.xml
 export RMW_IMPLEMENTATION=rmw_cyclonedds_cpp
 
+export PATH=$PATH:/home/matvei/go/bin
 
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+# lazyff
+export PATH="/home/matvei/.lazyff/bin:$PATH"
