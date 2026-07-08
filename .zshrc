@@ -107,3 +107,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # lazyff
 export PATH="/home/matvei/.lazyff/bin:$PATH"
+
+# MATLAB
+export PATH="/usr/local/MATLAB/R2026a/bin:$PATH"
