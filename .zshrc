@@ -46,7 +46,7 @@ alias gemini="npx @google/gemini-cli"
 alias binaryninja="~/binaryninja_free_linux/binaryninja/binaryninja"
 alias empty_trash="rm -rf ~/.local/share/Trash/*"
 alias empty_caches="~/.local/bin/empty_caches"
-alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"
+#alias nvim="/usr/bin/./nvim-linux-x86_64.appimage"
 alias cambridge-cli="~/cambridge-cli/./cambridge-cli"
 alias iaito="flatpak run org.radare.iaito"
 alias studio="/usr/local/android-studio/bin/studio"
@@ -107,6 +107,9 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # lazyff
 export PATH="/home/matvei/.lazyff/bin:$PATH"
+
+# nvim
+export PATH="$PATH:/opt/nvim-linux-x86_64/bin"
 
 # MATLAB
 export PATH="/usr/local/MATLAB/R2026a/bin:$PATH"

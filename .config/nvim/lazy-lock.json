@@ -1,5 +1,6 @@
 {
   "Comment.nvim": { "branch": "master", "commit": "e30b7f2008e52442154b66f7c519bfd2f1e32acb" },
+  "amber-vim": { "branch": "main", "commit": "0cd0acda4e3d168ac7a3d1a8fa6a361e37bbb6bc" },
   "coc.nvim": { "branch": "release", "commit": "0ff79c0056910e574af2b2aa31aa359065705c4b" },
   "disassemble.nvim": { "branch": "master", "commit": "e9863dfeee674581f8c0596168f2d66fca5e91e7" },
   "image.nvim": { "branch": "master", "commit": "88351f1f7d9dbae286e671ce3690a49660dd8a5c" },

@@ -114,6 +114,9 @@ return {
   -- Neoterm: use the terminal from Neovim
   'kassio/neoterm',
 
+  -- Amber language syntax Highlighting
+  'amber-lang/amber-vim',
+
   -- Telescope
   {
     'nvim-telescope/telescope.nvim', version = '*',
