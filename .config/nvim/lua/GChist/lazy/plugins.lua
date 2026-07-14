@@ -65,11 +65,11 @@ return {
       }
   },
   -- Tree Sitter
-  {
-    'nvim-treesitter/nvim-treesitter',
-    lazy = false,
-    build = ':TSUpdate'
-  },
+  --{
+  --  'nvim-treesitter/nvim-treesitter',
+  --  lazy = false,
+  --  build = ':TSUpdate'
+  --},
 
   -- Color Scheme
   'KabbAmine/yowish.vim',
@@ -125,5 +125,8 @@ return {
         -- optional but recommended
         { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
     }
-  }
+  },
+
+  --LSP config
+  'neovim/nvim-lspconfig'
 }

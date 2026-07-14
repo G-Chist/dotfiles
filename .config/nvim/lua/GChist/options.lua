@@ -2,6 +2,7 @@
 vim.opt.number = true
 vim.opt.hlsearch = true
 vim.opt.encoding = "UTF-8"
+vim.opt.updatetime = 1000
 
 -- Options for vim-matchup
 vim.g.matchup_matchparen_enabled = 1
